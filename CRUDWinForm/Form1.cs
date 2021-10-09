@@ -26,9 +26,16 @@ namespace CRUDWinForm
         private void Refrescar()
         {
             DataSet1TableAdapters.PersonaTableAdapter ta = new DataSet1TableAdapters.PersonaTableAdapter();
-
+            
             DataSet1.PersonaDataTable dt = ta.GetPersonas(); // guarda los datos de la tabla en una variable dataTable
+            
             dataGridView1.DataSource = dt;
+            //dataGridView1.Columns[0].Visible = false; // ocultar columna en el datagrid
+            dataGridView1.Columns["id"].Visible = false;
+            for (int i=0; i< dataGridView1.ColumnCount; i++)
+            {
+                dataGridView1.Columns[i].HeaderText = dataGridView1.Columns[i].HeaderText.ToUpper();
+            }
             dataGridView1.AutoSizeColumnsMode = DataGridViewAutoSizeColumnsMode.Fill; // ajusta el tamaño de la tabla de datos al datagrid
         }
 
@@ -86,6 +93,20 @@ namespace CRUDWinForm
         {
             this.FormBorderStyle = FormBorderStyle.FixedSingle; // Deshabilitar que se pueda cambiar de tamaño el form
             Refrescar();
+        }
+
+        private void Form1_FormClosing(object sender, FormClosingEventArgs e)
+        {
+            DialogResult dialogo = MessageBox.Show("¿Desea cerrar el programa?",
+               "Cerrar el programa", MessageBoxButtons.YesNo, MessageBoxIcon.Question);
+            if (dialogo == DialogResult.No)
+            {
+                e.Cancel = true;
+            }
+            else
+            {
+                e.Cancel = false;
+            }
         }
     }
 }
