@@ -9,3 +9,14 @@ C:\Users\Aguirre\source\repos\CRUDWinForm\CRUDWinForm\obj\Debug\CRUDWinForm.cspr
 C:\Users\Aguirre\source\repos\CRUDWinForm\CRUDWinForm\obj\Debug\CRUDWinForm.exe
 C:\Users\Aguirre\source\repos\CRUDWinForm\CRUDWinForm\obj\Debug\CRUDWinForm.pdb
 C:\Users\Aguirre\source\repos\CRUDWinForm\CRUDWinForm\obj\Debug\CRUDWinForm.InsertarPP.resources
+C:\Users\Aguirre\Desktop\Repositorios Github\CRUD WinForm C#\CRUDWinForm\bin\Debug\CRUDWinForm.exe.config
+C:\Users\Aguirre\Desktop\Repositorios Github\CRUD WinForm C#\CRUDWinForm\bin\Debug\CRUDWinForm.exe
+C:\Users\Aguirre\Desktop\Repositorios Github\CRUD WinForm C#\CRUDWinForm\bin\Debug\CRUDWinForm.pdb
+C:\Users\Aguirre\Desktop\Repositorios Github\CRUD WinForm C#\CRUDWinForm\obj\Debug\CRUDWinForm.csproj.AssemblyReference.cache
+C:\Users\Aguirre\Desktop\Repositorios Github\CRUD WinForm C#\CRUDWinForm\obj\Debug\CRUDWinForm.Form1.resources
+C:\Users\Aguirre\Desktop\Repositorios Github\CRUD WinForm C#\CRUDWinForm\obj\Debug\CRUDWinForm.InsertarPP.resources
+C:\Users\Aguirre\Desktop\Repositorios Github\CRUD WinForm C#\CRUDWinForm\obj\Debug\CRUDWinForm.Properties.Resources.resources
+C:\Users\Aguirre\Desktop\Repositorios Github\CRUD WinForm C#\CRUDWinForm\obj\Debug\CRUDWinForm.csproj.GenerateResource.cache
+C:\Users\Aguirre\Desktop\Repositorios Github\CRUD WinForm C#\CRUDWinForm\obj\Debug\CRUDWinForm.csproj.CoreCompileInputs.cache
+C:\Users\Aguirre\Desktop\Repositorios Github\CRUD WinForm C#\CRUDWinForm\obj\Debug\CRUDWinForm.exe
+C:\Users\Aguirre\Desktop\Repositorios Github\CRUD WinForm C#\CRUDWinForm\obj\Debug\CRUDWinForm.pdb

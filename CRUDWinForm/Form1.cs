@@ -84,6 +84,7 @@ namespace CRUDWinForm
 
         private void Form1_Load(object sender, EventArgs e)
         {
+            this.FormBorderStyle = FormBorderStyle.FixedSingle; // Deshabilitar que se pueda cambiar de tamaño el form
             Refrescar();
         }
     }
